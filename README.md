@@ -1,4 +1,6 @@
 # opencv_webcamc
+Example of build and run OpenCV on Windows using CMake build with CMakeLists.txt
+
 ## Dependencies
 The following applications are used to build OpenCV webcam example:
 - [CMake](https://cmake.org/)
@@ -17,3 +19,9 @@ cmake --build . --config Release
 cmake ..
 make -j$(nproc)
 ```
+
+### Run example
+To run the OpenCV webcam example, run the following commands:
+```bash
+cd build/Release
+./OpenCV_testc.exe
