@@ -1,5 +1,9 @@
 # opencv_webcamc
 Example of build and run OpenCV on Windows using CMake build with CMakeLists.txt
+Tested on Windows 10
+OpenCV 4.8.0
+CMake 3.31.0
+VS code
 
 ## Dependencies
 The following applications are used to build OpenCV webcam example:
